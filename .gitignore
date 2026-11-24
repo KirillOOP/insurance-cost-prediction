@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Dataset
+data/*
+!data/.gitkeep
+
+# Trained models and results
+artifacts/*
+!artifacts/.gitkeep
+
+# Generated plots
+static/plots/*
+!static/plots/.gitkeep
+
+# Editor and temporary files
+.vscode/
+.pytest_cache/
+*.log
